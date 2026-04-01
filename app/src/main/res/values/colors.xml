@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="bg_dark">#1C1C1E</color>
+    <color name="bg_number">#2C2C2E</color>
+    <color name="bg_operator">#FF9F0A</color>
+    <color name="bg_func">#3A3A3C</color>
+    <color name="bg_equals">#FF9F0A</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="text_func">#FFFFFF</color>
+    <color name="text_operator">#FFFFFF</color>
+
+    <!-- Misc -->
+    <color name="divider">#2C2C2E</color>
+    <color name="ripple_light">#33FFFFFF</color>
+
+    <!-- Status bar -->
+    <color name="colorPrimary">#1C1C1E</color>
+    <color name="colorPrimaryDark">#1C1C1E</color>
+    <color name="colorAccent">#FF9F0A</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+    </style>
+
+    <style name="BaseButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="NumberButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_number_bg</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="OperatorButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_operator_bg</item>
+        <item name="android:textColor">@color/text_operator</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="FuncButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_func_bg</item>
+        <item name="android:textColor">@color/text_func</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="EqualsButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_equals_bg</item>
+        <item name="android:textColor">@color/text_operator</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>
